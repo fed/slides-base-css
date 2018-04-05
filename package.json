@@ -1,0 +1,15 @@
+{
+  "name": "slides-base-css",
+  "version": "0.0.0",
+  "description": "Base styles for my presentations",
+  "main": "style.css",
+  "license": "MIT",
+  "author": "Federico Knussel <fknussel@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fknussel/slides-base-css.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
