@@ -50,8 +50,8 @@ li {
   text-decoration: none;
 }
 
-/* Secondary text */
-.lighten {
+/* Secondary (lighten) text */
+.secondary {
   opacity: 0.25;
 }
 
@@ -72,11 +72,11 @@ li {
 }
 
 /* Last slide with contact details */
-.thanks {
+.contact-details {
   text-align: left !important;
 }
 
-.thanks h2 {
+.contact-details h2 {
   font-size: 60px;
 }
 
