@@ -3,12 +3,13 @@
 
 /* Colours */
 :root {
-  --color-inverse-bg: #0084ff;
-  --color-inverse-fg: #fff;
+  --color-clear: #fff;
+  --color-inverse: #0084ff;
   --color-link: #056cc1;
   --color-text: #1b1b1b;
 }
 
+/* Base styles */
 body {
   color: var(--color-text);
   font-family: 'Encode Sans Condensed', sans-serif;
@@ -23,9 +24,10 @@ li {
   font-size: 50px;
 }
 
+/* Inverse slide styling */
 .inverse {
-  background-color: var(--color-inverse-bg);
-  color: var(--color-inverse-fg);
+  background-color: var(--color-inverse);
+  color: var(--color-clear);
 }
 
 .inverse h1,
@@ -44,32 +46,45 @@ li {
 }
 
 .inverse a {
-  color: var(--color-inverse-fg);
+  color: var(--color-clear);
   text-decoration: none;
 }
 
+/* Secondary text */
 .lighten {
   opacity: 0.25;
 }
 
+/* Coloured box to highlight important content */
 .highlight {
-  background-color: var(--color-inverse-bg);
+  background-color: var(--color-inverse);
   border-radius: 4px;
-  color: var(--color-inverse-fg);
+  color: var(--color-clear);
   font-size: 60px;
   font-weight: 700;
   padding: 10px 25px 15px;
   text-shadow: 6px 6px 0 rgba(0, 0, 0, 0.2);
 }
 
+/* Full width images */
 .full-width img {
   width: 100%;
 }
 
+/* Last slide with contact details */
 .thanks {
   text-align: left !important;
 }
 
 .thanks h2 {
   font-size: 60px;
+}
+
+/* Format inline code */
+.remark-inline-code {
+  background-color: #f8f9f9;
+  border: 1px solid #e2e4e6;
+  border-radius: 2px;
+  color: #eb5a46;
+  padding: 1px 3px;
 }

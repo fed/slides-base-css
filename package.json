@@ -4,7 +4,7 @@
   "description": "Base styles for my presentations",
   "main": "style.css",
   "license": "MIT",
-  "author": "Federico Knussel <fknussel@gmail.com>",
+  "author": "Federico Knüssel <fknussel@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fknussel/slides-base-css.git"
