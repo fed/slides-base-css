@@ -88,3 +88,8 @@ li {
   color: #eb5a46;
   padding: 1px 3px;
 }
+
+/* Align code to the left even if the content is centered */
+.remark-code {
+  text-align: left;
+}
