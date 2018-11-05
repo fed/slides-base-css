@@ -1,6 +1,6 @@
 {
   "name": "slides-base-css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Base styles for my presentations",
   "main": "style.css",
   "license": "MIT",
